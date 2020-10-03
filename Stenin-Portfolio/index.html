@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-SteninXavier</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="main">
+        <nav>
+            <a href="#" class="logo">STENIN XAVIER<br><h5 class="aboutme">I am  a Passionate Frontend Developer with Digital Marketing Skills</h5></a>
+            <div class="toggle"></div>
+            <ul class="menu">
+             <li><a href="#main" class="active">Home</a></li>
+             <li><a href="#skillsec" class="active">Skills</a></li>
+             <li><a href="#experience" class="active">Experience</a></li>
+             <li><a href="#education" class="active">Education</a></li>
+             <li><a href="#contact" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="second">
+        <h1>
+            <span>W</span>
+            <span>E</span>
+            <span>L</span>
+            <span>C</span>
+            <span>O</span>
+            <span>M</span>
+            <span>E</span>
+        </h1>
+        <img class="steninphoto" src="images/steninbannerphoto.jpg">
+   
+    <div class="cv">
+        <a href="documents/Stenin CV.pdf" download="Stenin CV.pdf" class="re-btn">Download Cv</a>
+    </div>
+    <div class="social">
+        <a href="https://www.linkedin.com/in/stenin-xavier-606383b7/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://join.skype.com/invite/aQgdjQqvmKcI" target="_blank" class="fa fa-skype"></a>
+    </div>
+</section>
+<section id="skillsec">
+    <div class="skills">
+        <h2 class="mainhead">My Skills</h2>
+        <h4 class="subhead">Basics</h4>
+            <li><h4>HTML5</h4></li> <span class="bar"><span class="html"></span></span>
+            <li><h4>CSS3</h4></li> <span class="bar"><span class="css"></span></span>
+            <li><h4>JAVA SCRIPT</h4></li> <span class="bar"><span class="javascript"></span></span>
+            <li><h4>MYSQL</h4></li> <span class="bar"><span class="SQL"></span></span>
+            <li><h4>C</h4></li> <span class="bar"><span class="C"></span></span>
+            <li><h4>C++</h4></li> <span class="bar"><span class="CP"></span></span>
+            <li><h4>DIGITAL MARKETING TECHNIQUES</h4></li> <span class="bar"><span class="MARKETING"></span></span>
+        <h4 class="subhead">Framework</h4>
+            <li><h4>BOOTSTRAP</h4></li> <span class="bar"><span class="boot"></span></span>
+            <li><h4>MATERIALIZE</h4></li> <span class="bar"><span class="mater"></span></span>
+            <li><h4>REACT</h4></li> <span class="bar"><span class="react"></span></span>
+        <h4 class="subhead">Tools</h4>
+            <li><h4>VISUAL STUDIO CODE</h4></li> <span class="bar"><span class="vsc"></span></span>
+            <li><h4>ADOBE PHOTOSHOP</h4></li> <span class="bar"><span class="photoshop"></span></span>
+            <li><h4>ADOBE AFTEREFFECTS</h4></li> <span class="bar"><span class="aftereffects"></span></span>
+        <h4 class="subhead">Content Management System</h4>
+            <li><h4>WORDPRESS</h4></li> <span class="bar"><span class="wordpress"></span></span>
+        <h4 class="subhead">Version Control System</h4>
+            <li><h4>GIT</h4></li> <span class="bar"><span class="git"></span></span>
+    </div>
+</section>
+<section id="experience">
+    <h1>Experience</h1>
+    <div class="timelinebody">
+            <h4>02/2015 - 07/2017</h4>
+                <h2>Web Development (Freelance)</h2>
+                <p>Tasks
+                    <li> Website and software application designing, building and maintaining.</li> 
+                    <li>Website and software application designing, building and maintaining.</li>
+                    <li>Using scripting or authoring languages, management tools, content creation tools.</li>
+                    <li> Directing or performing Website updates.</li>
+                    <li> Making of Responsive designs. </li>
+                    <li>Using of Content management systems for the designing and development of websites.</li>
+                </p>
+            </div>
+            &nbsp;
+            <div class="timelinebody">
+                <h4>02/2015 - 07/2017</h4>
+                    <h2>Digital Marketing (Freelance)</h2>
+                    <p>Tasks
+                        <li> Plan and execute all digital marketing, including SEO/SEM, marketing database, email.</li>
+                            <li> with internal teams to create landing pages and optimize user experience.</li> 
+                        <li>Identify trends and insights, and optimize spend and performance based on the insights.</li>
+                        <li>Design, build and maintain social media presence.</li>
+                        <li> Edit and post content, videos, podcasts, and audio content on online sites.</li>
+                    </p>
+                </div>
+</section>
+<section id="education">
+    <h1>Education</h1>
+    <div class="timelinebody">
+            <h4>06/2012 - 06/2016</h4>
+                <h2>Btech in Computer Science</h2>
+                <p>Mahathma Gandhi University
+                </p>
+            </div>
+            &nbsp;
+            <div class="timelinebody">
+                <h4>05/2019 - Present</h4>
+                    <h2>Global MBA</h2>
+                    <p>Berlin School Of Business And Innovation
+                    </p>
+                </div>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div id="error_message"></div>
+    <form id="myform" onsubmit="return validate();">
+      <div class="input_field">
+          <input type="text" placeholder="Name" id="name">
+      </div>
+      <div class="input_field">
+          <input type="text" placeholder="Phone" id="phone">
+      </div>
+      <div class="input_field">
+          <input type="text" placeholder="Email" id="email">
+      </div>
+      <div class="input_field">
+          <textarea placeholder="Message" id="message"></textarea>
+      </div>
+      <div class="btn">
+          <input type="submit">
+      </div>
+    </form>
+    <script src="index.js"></script>
+    <div class="seccontact">
+        <i class="fa fa-map-marker"></i>Stephanstrasse 55<br>Berlin,10559
+        <i class="fa fa-envelope"></i>steninxavier@gmail.com
+        <i class="fa fa-phone-square"></i>+4915124426868
+    </div> 
+</section>
+<footer>
+Basic portfolio site done using HTML, CSS and JavaScript and made from scratch. <a href="#">Github link of this site</a>
+</footer>
+<script src="jquery.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.toggle').click(function(){
+   $('.toggle').toggleClass('active')
+   $('nav ul').toggleClass('active-menu')
+   
+  })
+ });
+
+</script>  
+</body>
+</html>
