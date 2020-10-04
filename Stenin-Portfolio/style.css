@@ -468,7 +468,7 @@ width: 75%;
         margin-left: 4px;
         }  
         nav{
-       width: 247px;
+       width: 375px;
         }
         #experience{
         width: 200px;
@@ -502,10 +502,12 @@ width: 75%;
           flex-wrap: wrap;
       }
       footer{
-          width: 247px;
+          width: 375px;
           font-size: 7.5px;
       }
       h1{
         width: 100px;
     }
+    .social{
+        padding-top: 400px;
     }
