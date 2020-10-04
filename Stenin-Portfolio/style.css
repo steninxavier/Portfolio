@@ -512,4 +512,14 @@ width: 75%;
     .social{
         padding-top: 400px;
     }
+    .steninphoto{
+        width: 150px;
+        height: 170px;
+        display:inline;
+        justify-content: space-between;
+}
+.second{
+    padding-left: 20px;
+    padding-right: 10px;
+}
 }
