@@ -457,31 +457,44 @@ width: 75%;
 }
 @media(max-width:400px){
     h1{
-        font-size: 4em;
+        font-size: 2em;
+    }
+    html,body{
+        overflow-x: hidden;
     }
     .skills{
-        padding-left: 5%;
-        width: 200px;
+        width: 100px;
+        margin: none;
+        margin-left: 4px;
         }  
         nav{
-       width: 400px;
+       width: 247px;
         }
         #experience{
         width: 200px;
-        border-left: 2px solid #ccc;
-        padding: 0 20px 0 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        border-left:none;
+
         }
+        #experience h1{
+            font-size: 40px;
+        }
+
       #education{
-        width:200px;
-        border-left: 2px solid #ccc;
-        padding: 0 20px 0 30px;
+        width:150px;
+        border-left: none;
+        padding-left: 10px;
+        margin-left: 10px;
       }
       #contact{
         position: relative;
-        width: 200px;
+        width: 150px;
         font-family: cursive;
         padding-bottom: 70px;
         padding-top:0px;
+        left: 36px;
+        right: none;
       } 
       .seccontact,i{
           width: 150px;
@@ -489,10 +502,10 @@ width: 75%;
           flex-wrap: wrap;
       }
       footer{
-          width: 375px;
+          width: 247px;
           font-size: 7.5px;
       }
       h1{
-        width: 200px;
+        width: 100px;
     }
     }
