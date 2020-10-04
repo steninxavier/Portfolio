@@ -358,6 +358,7 @@ width: 75%;
             font-family: cursive;
             display: flex;
             justify-content: center;
+            align-content: center;
             font-size: 13px;
         }
         @media(max-width:970px){
@@ -455,7 +456,7 @@ width: 75%;
             font-size: 20px;
         }
 }
-@media(max-width:400px){
+@media(max-width:415px){
     h1{
         font-size: 2em;
     }
@@ -463,15 +464,15 @@ width: 75%;
         overflow-x: hidden;
     }
     .skills{
-        width: 100px;
+        width: 250px;
         margin: none;
         margin-left: 4px;
         }  
         nav{
-       width: 375px;
+       width: 414px;
         }
         #experience{
-        width: 200px;
+        width: 250px;
         padding-left: 10px;
         margin-left: 10px;
         border-left:none;
@@ -482,14 +483,14 @@ width: 75%;
         }
 
       #education{
-        width:150px;
+        width:250px;
         border-left: none;
         padding-left: 10px;
         margin-left: 10px;
       }
       #contact{
         position: relative;
-        width: 150px;
+        width: 250px;
         font-family: cursive;
         padding-bottom: 70px;
         padding-top:0px;
@@ -502,7 +503,7 @@ width: 75%;
           flex-wrap: wrap;
       }
       footer{
-          width: 375px;
+          width: 414px;
           font-size: 7.5px;
       }
       h1{
